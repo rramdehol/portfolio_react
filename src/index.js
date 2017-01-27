@@ -2,6 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory, IndexRoute} from "react-router";
+import $ from "jquery";
+
 // Custom Components
 import App from './App';
 import Home from "./route-components/Home.jsx"
