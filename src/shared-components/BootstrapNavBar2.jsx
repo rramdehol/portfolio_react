@@ -23,7 +23,7 @@ class   BootstrapNavBar2 extends Component{
       <ul className ="nav navbar-nav">
         <li className="menu-item"><a href="#featured-projects">Back to Top</a></li>        
         <li className="menu-item"><a href="#featured-projects">Featured Projects</a></li>
-        <li className="menu-item"><a href="#about">About Me</a></li>
+        <li className="menu-item"><a href="#about">Aboute Me & Interests</a></li>
         <li className="menu-item"><a href="#skills">Skills & Languages</a></li>
         <li className="menu-item"><a href="#work-experience">Work Experience</a></li>
         <li className="menu-item"><a href="#resume">Resume</a></li>

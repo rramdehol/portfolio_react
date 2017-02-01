@@ -29,47 +29,110 @@
   text-align: center;
 }
 
+
+/* Skills Component */
+.dev-logo{
+  height: 100px;
+  width: 100px; 
+}
+
 /* Route Components  */
 #about{
-  height: 400px;
+  height: 750px;
   width: 1000px;
   background-color: lightgreen;
   margin: auto;
 }
 #home{
-  height: 400px;
+  height: 750px;
   width: 1000px;
   background-color: lightgreen;
   margin: auto;
 }
 #skills{
-  height: 400px;
+  height: 750px;
   width: 1000px;
   background-color: lightgreen;
   margin: auto;
 
 }
 #resume{
-  height: 400px;
+  height: 750px;
   width: 1000px;
   background-color: lightgreen;
   margin: auto;
 
 }
 #work-experience{
-  height: 400px;
+  height: 750px;
   width: 1000px;
   background-color: lightgreen;
   margin: auto;
 
 }
-#featured-projects{
- 
+
+/* Autotyper */
+#auto-type-box{
+  background-color: black;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+#first-line, #second-line, #third-line{
+  color: lime; 
+  font-family: 'Droid Sans Mono', monospace;
+  font-size: 20px;
+  margin: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+}
+#first-line{
+  animation: type 6s steps(60, end)
+}
+#second-line{
+  animation: type2 6s steps(60, end) 
+}
+#third-line{
+  animation: type3 6s steps(60, end);
+}
+#gitlink{
+  color: red;
 }
 
-.test-parallax{
-  height: 400px;
-  width: 1000px;
-  background-color: blue;
-  margin: auto;
+
+
+/* Blinking Cursors & Arrows */
+.blink {
+  animation: blink 1s infinite;
 }
+.glyphicon-chevron-right, .glyphicon-chevron-left{
+  animation: blink 1.5s infinite;
+}
+
+@keyframes type{ 
+  0%{width: 0;}
+  33%{width: 100%;}
+  100%{ width: 100%; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  33%{width: 0;}
+  66%{width: 70%;}
+  100%{ width: 100%; } 
+} 
+@keyframes type3{
+  0%{width: 0;}
+  66%{width: 0%;}
+  100%{ width: 100%; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+

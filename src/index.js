@@ -7,9 +7,7 @@ import $ from "jquery";
 // Custom Components
 import App from './App';
 import Home from "./route-components/Home.jsx"
-import Skills from "./route-components/Skills.jsx"
-import Work from "./route-components/Work.jsx"
-import About from "./route-components/About.jsx"
+import Splash from "./route-components/Splash.jsx"
 import Resume from "./route-components/Resume.jsx"
 // Styling
 import './index.css';
@@ -18,10 +16,8 @@ import './index.css';
 ReactDOM.render(
   <Router history = {hashHistory}>
   	<Route path="/" component = {App}>
-  		<IndexRoute component={Home}/>
-  		<Route path ="/skills" component={Skills}/>
-  		<Route path ="/work" component={Work}/>
-  		<Route path ="/about" component={About}/>
+  		<IndexRoute component={Splash}/>
+      <Route path ="/home" component={Home}/>
   		<Route path ="/resume" component={Resume}/>
   	</Route>
   </Router>,
