@@ -25,6 +25,7 @@ class Resume extends Component{
 					 vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 				</p>
 				<Autotyper message={"Hi I'm Ryan Ramdehol and I'm a React Web Developer"} createdWith = {"This portfolio was created in React JS"} contactMessage={"find me on gitHub"} gitHubLink={"https://github.com/rramdehol"} gitHubName={"@rramdehol"} clickMessage={"or click the button below"}/>
+				<Link className="btn btn-success" to="/home">Back To Home Page</Link>
 			</div>
 		)
 	}

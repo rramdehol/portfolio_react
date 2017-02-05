@@ -39,53 +39,57 @@
 /* Route Components  */
 #about{
   height: 750px;
-  width: 1000px;
+  width: 70vw;
   background-color: lightgreen;
   margin: auto;
 }
 #home{
   height: 750px;
-  width: 1000px;
+  width: 70vw;
   background-color: lightgreen;
   margin: auto;
 }
 #skills{
   height: 750px;
-  width: 1000px;
+  width: 70vw;
   background-color: lightgreen;
   margin: auto;
 
 }
 #resume{
   height: 750px;
-  width: 1000px;
+  width: 70vw;
   background-color: lightgreen;
   margin: auto;
 
 }
 #work-experience{
   height: 750px;
-  width: 1000px;
+  width: 70vw;
   background-color: lightgreen;
   margin: auto;
 
 }
+/* Splash Component */
+#get-to-know-me{
+  margin: auto;
+}
 
 /* Autotyper */
 #auto-type-box{
-  background-color: black;
+  background: rgba(0, 0, 0, 0.1); 
   margin: auto;
   height: 100%;
   width: 100%;
 }
 #first-line, #second-line, #third-line{
-  color: lime; 
+  color: white; 
   font-family: 'Droid Sans Mono', monospace;
-  font-size: 20px;
+  font-size: 200%;
   margin: 10px;
   white-space: nowrap;
   overflow: hidden;
-  width: 30em;
+  width: 100%;
 }
 #first-line{
   animation: type 6s steps(60, end)
@@ -132,7 +136,14 @@
   to{opacity: .0;}
 }
 
-::selection{
+/* ::selection{
   background: black;
+} */
+
+#splash-page{
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif");
+  background-size: cover;
 }
 

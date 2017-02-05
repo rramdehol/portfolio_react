@@ -1,7 +1,7 @@
 // React Stuff  
 import React, { Component } from 'react';
 import { Link } from "react-router";
-import {Navbar, NavItem, NavDropdown, MenuItem, Nav} from "react-bootstrap";
+import {Col, Navbar, NavItem, NavDropdown, MenuItem, Nav} from "react-bootstrap";
 
 class BootstrapReactNavBar extends Component{
 	render(){
