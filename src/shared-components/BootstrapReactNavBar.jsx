@@ -18,7 +18,7 @@ class BootstrapReactNavBar extends Component{
 			        <NavItem className= "menu-item" eventKey={1} href="#featured-projects">Back To Top</NavItem>
 			        <NavItem className= "menu-item" eventKey={2} href="#featured-projects">Featured Projects</NavItem>
 			        <NavItem className= "menu-item" eventKey={2} href="#about">About Me</NavItem>
-			        <NavItem className= "menu-item" eventKey={2} href="#skills">Languages & Skills</NavItem>
+					<NavItem className= "menu-item" eventKey={2} href="#skills">Languages & Skills</NavItem>
 			        <NavItem className= "menu-item" eventKey={2} href="#work-experience">Work Exprience</NavItem>
 			        <NavItem className= "menu-item" eventKey={2} href="#resume"><Link to="/resume">Resume</Link></NavItem>
 			        {/*<NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">

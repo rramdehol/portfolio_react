@@ -38,35 +38,35 @@
 
 /* Route Components  */
 #about{
-  height: 750px;
+  height: 100%;
   width: 70vw;
-  background-color: lightgreen;
+  background-color: steelblue;
   margin: auto;
 }
 #home{
-  height: 750px;
+  height: 100%;
   width: 70vw;
   background-color: lightgreen;
   margin: auto;
 }
 #skills{
-  height: 750px;
+  height: 100%;
   width: 70vw;
   background-color: lightgreen;
   margin: auto;
 
 }
 #resume{
-  height: 750px;
+  height: 100%;
   width: 70vw;
   background-color: lightgreen;
   margin: auto;
 
 }
 #work-experience{
-  height: 750px;
+  height: 100%;
   width: 70vw;
-  background-color: lightgreen;
+  background-color: orange;
   margin: auto;
 
 }
@@ -129,7 +129,7 @@
 @keyframes type3{
   0%{width: 0;}
   66%{width: 0%;}
-  100%{ width: 100%; } 
+  100%{ width: 100%;} 
 } 
 
 @keyframes blink{
