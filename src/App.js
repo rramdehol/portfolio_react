@@ -7,6 +7,8 @@ import $ from "jquery";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 // Bootstrap React 
 import "react-bootstrap"
+// Typist CSS
+import '../node_modules/react-typist/dist/Typist.css'
 // Custom Components
 import "./App.css"
 import Home from "./route-components/Home.jsx"

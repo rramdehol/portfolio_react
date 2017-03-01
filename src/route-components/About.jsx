@@ -1,6 +1,8 @@
 // React Stuff  
 import React, { Component } from 'react';
 import { Link } from "react-router"
+// Custom Components
+import Thumbnail from '../shared-components/Thumbnail.jsx'
 
 class About extends Component{
 	render(){
