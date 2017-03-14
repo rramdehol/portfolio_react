@@ -139,8 +139,67 @@
 /* ::selection{
   background: black;
 } */
-
+/* ***********************÷SPLASH PAGE************************ */
 #splash-page{
+  position: relative;
   font-size: 2em;
+  z-index: 2;
+  text-align: center;
 }
+#splash-intro{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 20px;
+  padding: 20px;
+}
+#splash-title{
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 4em;
+  font-family: 'La Belle Aurore', cursive;
+}
+#get-to-know-me{
+  color: black;
+  font-size: 1em;
+  font-family: 'Roboto Mono', monospace;
+}
+#get-to-know-me-button{
+  width: 300px;
+  margin: auto;
+}
+#logo{
+  min-height: 300px;
+  min-width: 300px; 
+  height: 40%;
+  width: 40%;
+  margin: auto;
+}
+#cover-video{
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+}
+.fillWidth {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 
